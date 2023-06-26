@@ -2,20 +2,19 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: sjnv20
 logo:
 author: themefisher
 description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+email: sj-nv20@naver.com
+phone: 010-9196-6459
+address: 서울특별시 관악구 은천로32길 22-6
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
   - { name: About, link: "/about" }
   - { name: Blog, link: "/blog" }
   - { name: Portfolio, link: "/portfolio" }
-  - { name: Contact, link: "/contact" }
 
 #-------------------------------
 # Google Analytics Section
@@ -36,13 +35,12 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> LeeSeonju
+  hero-content: Backend developer
 
 social:
-  - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-instagram", link: "#" }
-  - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
+  - { icon: "ti-github", link: "https://github.com/sjnv20" }
+  - { icon: "ti-pencil-alt", link: "https://sj-nv20.tistory.com/" }
 
 #-------------------------------
 # About (Section and Page)
@@ -88,8 +86,8 @@ team:
 
 skills-title: Skills
 skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
+  - { name: Java, color: "#fdb157", value: "90%" }
+  - { name: Python, color: "#9473e6", value: "60%" }
   - { name: After Effects, color: "#bdecf6", value: "80%" }
   - { name: Web App, color: "#ffbcaa", value: "70%" }
 
