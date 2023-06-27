@@ -1,23 +1,30 @@
 .hero-area {
-  padding: 300px 0 200px;
+  height: 900px;
+  padding: 150px 0 0px;
   position: relative;
   @include tablet {
-    padding: 250px 0 150px;
+    padding: 150px 0px 0px;
     overflow: hidden;
   }
   h1{
     position: relative;
     z-index: 2;
-    margin-left : 90px;
+    margin-left : 50px;
+    margin-top : 60px;
+    font-weight: bolder;
   }
   p {
     font-size : 30px;
+  }
+  
+  .herofill{
+    font-size : 18px;
   }
 }
 
 #gandb{
   margin-left : 17px; 
-  margin-top : 4rem!important;
+  margin-top : 5rem!important;
   width : 10%;
 }
 
@@ -37,39 +44,48 @@
 }
 
 #l3 {
-  top: 200px;
-  left: 40%;
+  top: 110px;
+  left: 35%;
+  
 }
 
 #l4 {
-  top: 200px;
+  top: 150px;
   right: 40%;
 }
 
 #l5 {
-  top: 100px;
-  right: -150px;
+  top: -20px;
+  right: -140px;
 }
 
 #l6 {
-  bottom: -20px;
-  left: 10%;
+  bottom: 400px;
+  left: 5%;
+  transform: rotate(260deg);
 }
 
 #l7 {
   bottom: 100px;
-  left: 20%;
+  left: 10%;
 }
 
 #l8 {
-  bottom: 160px;
+  bottom: 250px;
   right: 45%;
 }
 
 #l9 {
-  bottom: 100px;
+  bottom: 190px;
   right: -10px;
 }
+
+#l10 {
+  bottom: -10px;
+  left: -1%;
+  transform: rotate(110deg);
+}
+
 
 .layer-bg {
   position: absolute;

@@ -35,8 +35,9 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> LeeSeonju
+  hero-title: Hi, I am Seonju
   hero-content: Backend developer
+  hero-fill: 안녕하세요 :)<br>어디서든 당당하게 제 역량을 어필할 수 있도록 <br>성장하기 위해 끊임없이 도전하고 노력하는<br><b>개발자 이선주</b> 입니다.
 
 social:
   - { icon: "ti-github", link: "https://github.com/sjnv20" }
