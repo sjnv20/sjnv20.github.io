@@ -4,7 +4,8 @@
       {% if site.data.settings.logo %}
         <img src="{{ site.data.settings.logo | absolute_url }}" alt="{{ site.data.settings.title }}">
         {% else if %}
-        <h3 class="font-tertiary" style="font-size: x-large; color:rgb(74, 74, 78)">{{site.data.settings.title}}</h3>
+        <h3 class="font-tertiary" style="font-size: x-large; color:rgb(74, 74, 78); margin-bottom: 0px;
+        margin-top: 10px;">{{site.data.settings.title}}</h3>
       {% endif %}
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"

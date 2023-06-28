@@ -28,6 +28,16 @@
   width : 10%;
 }
 
+#gandb2{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+#info{
+  flex-basis: 250px;
+}
+
 .layer {
   position: absolute;
   z-index: 1;
@@ -44,7 +54,7 @@
 }
 
 #l3 {
-  top: 110px;
+  top: 70px;
   left: 35%;
   
 }
@@ -55,12 +65,12 @@
 }
 
 #l5 {
-  top: -20px;
+  top: -58px;
   right: -140px;
 }
 
 #l6 {
-  bottom: 400px;
+  bottom: 440px;
   left: 5%;
   transform: rotate(260deg);
 }
@@ -71,17 +81,17 @@
 }
 
 #l8 {
-  bottom: 250px;
+  bottom: 290px;
   right: 45%;
 }
 
 #l9 {
-  bottom: 190px;
+  bottom: 230px;
   right: -10px;
 }
 
 #l10 {
-  bottom: -10px;
+  bottom: 30px;
   left: -1%;
   transform: rotate(110deg);
 }

@@ -1,25 +1,37 @@
 <!-- footer -->
-<footer class="bg-dark footer-section">
-  <div class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
+<footer class="footer-section">
+  <div class="section" style="padding:10px 0px 0px;">
+    <div>
+      <h3 class="font-tertiary" style="font-size: x-large; color:rgb(230, 230, 255); margin : 20px 0 0 30px;">{{site.data.settings.title}}</h3>
+    </div>
+    <div class="container" style="padding-left: 260px; display:flex; gap:80px;">
+      <div class="row" style="flex-basis: 700px;">
+        <div class="col-md-4" id="info">
           <h5 class="text-light">Email</h5>
           <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.email }}</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4"id="info">
           <h5 class="text-light">Phone</h5>
           <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.phone }}</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4"id="info">
           <h5 class="text-light">Address</h5>
           <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.address }}</p>
         </div>
       </div>
+      <div>
+        <!-- social icon -->
+        <ul id="gandb2" class="list-unstyled position-relative zindex-1">
+          {% for social in site.data.settings.social %}
+          <li style="margin-top: 5px; margin-bottom:30px;"><a class="gitblog" href="{{ social.link }}"><i class="{{ social.icon }}" style="font-size: x-large; "></i></a></li>
+          {% endfor %}
+        </ul>
+        <!-- /social icon -->
+        </div>
     </div>
   </div>
-  <div class="border-top text-center border-dark py-5">
-    <p class="mb-0 text-light">{{site.data.settings.copyright | markdownify}}</p>
+  <div class="text-center" style="border-color : #523fcd; padding: 58px 0px 20px; ">
+    <p style="font-size: 10px; color:aliceblue; margin-bottom:0px">{{site.data.settings.copyright}}</p>
   </div>
 </footer>
 <!-- /footer -->

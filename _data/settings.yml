@@ -7,9 +7,9 @@ logo:
 author: themefisher
 description: this is meta description
 email: sj-nv20@naver.com
-phone: 010-9196-6459
-address: 서울특별시 관악구 은천로32길 22-6
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+phone: 010 . 9196 . 6459
+address: 서울특별시 관악구 은천로
+copyright: Copyright &copy; 2020 Designed by Themefisher & Developed by Getjekyllthemes
 
 menu:
   - { name: About, link: "/about" }
