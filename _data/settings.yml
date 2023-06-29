@@ -241,6 +241,50 @@ portfolio-items:
     url: "#"
     portfolio-type:
       - type: "illustration"
+#-------------------------------
+# Blog page
+
+blog-home-items:
+  - image: "assets/images/portfolio/item-1.png"
+    url: "#"
+
+  - image: "assets/images/portfolio/item-2.png"
+    url: "#"
+
+  - image: "assets/images/portfolio/item-3.png"
+    url: "#"
+
+  - image: "assets/images/portfolio/item-4.png"
+    url: "#"
+
+  - image: "assets/images/portfolio/item-5.png"
+    url: "#"
+
+blog-label:
+  - { title: "Tistory", type: "tistory" }
+  - { title: "Velog", type: "velog" }
+
+blog-items:
+  - image: "assets/images/blog/post-2.jpg"
+    url: "https://sj-nv20.tistory.com/9"
+    blog-type:
+      - type: "tistory"
+    memo: Mac - 깃허브 페이지 만들기
+    text: 🖥️ github page 만드는 방법 📌 github page 참고 사이트 [ https://pages.github.com ] GitHub . . .
+
+  - image: "assets/images/blog/post-3.jpg"
+    url: "https://velog.io/@sj-_nv20/Algorithm-%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84Time-Complexity-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A0%ED%83%9D%EC%9D%98"
+    blog-type:
+      - type: "velog"
+    memo: 시간복잡도(Time Complexity)
+    text: 🤷🏻‍♀️ &nbsp;시간복잡도(Time Complexity)란? 알고리즘에서 시간복잡도는 [ 주어진 문제를 해결하기 위한 연산 횟수 ] . . .
+
+  - image: "assets/images/blog/post-4.jpg"
+    url: "https://sj-nv20.tistory.com/10"
+    blog-type:
+      - type: "tistory"
+    memo: 깃허브 페이지 404 에러 해결방법
+    text: 🤷🏻‍♀️ 제대로 만들었는데 404가 뜬다?! 분명 제대로 만들었다 생각했는데 404 페이지가 떴을경우 생각해야 할 것은 총 3 . . .
 
 #-------------------------------
 # Testimonials Section
@@ -299,4 +343,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: sj-nv20@naver.com
