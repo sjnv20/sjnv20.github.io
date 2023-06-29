@@ -5,8 +5,19 @@
       <div class="col-12 text-center">
         <h2 class="section-title">Blogs</h2>
       </div>
-      {% for post in site.posts offset:0 limit:3 %}
-      {% include post.html %}
+      {% for item in site.data.settings.blog-items %}
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for blog in item.blog-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ blog.type }}&quot;{% endfor %}]">
+        <img src="{{ site.baseurl }}/{{ item.image }}" alt="blog-image" class="img-fluid rounded w-100 d-block">
+        <div class=" position-relative rounded hover-wrapper" style="box-shadow: -5px 5px 9px 0px rgba(224,241,255,.34);" >
+            <div class="card-body" >
+              <h4 class="card-title">
+              <a>{{item.memo}}</a>
+              </h4>
+              <p class="card-text">{{item.text}}</p>
+              <a href="{{ item.url }}" class="btn btn-xs btn-primary">Read More</a>
+            </div>
+        </div>
+      </div>
       {% endfor %}
     </div>
   </div>
