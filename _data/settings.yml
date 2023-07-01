@@ -286,6 +286,12 @@ blog-items:
     memo: 깃허브 페이지 404 에러 해결방법
     text: 🤷🏻‍♀️ 제대로 만들었는데 404가 뜬다?! 분명 제대로 만들었다 생각했는데 404 페이지가 떴을경우 생각해야 할 것은 총 3 . . .
 
+  - image: "assets/images/blog/post-5.jpg"
+    url: "https://sj-nv20.tistory.com/15"
+    blog-type:
+      - type: "tistory"
+    memo: 정보처리기사 실기 요약정리
+    text: 11.응용 SW 기초 기술 활용 * 운영체제 제어 방법 CLI (Command Line Interface) - 사용자가 직접 명령어 입력
 #-------------------------------
 # Testimonials Section
 
