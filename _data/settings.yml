@@ -266,11 +266,11 @@ blog-label:
 
 blog-items:
   - image: "assets/images/blog/post-2.jpg"
-    url: "https://sj-nv20.tistory.com/9"
+    url: "https://sj-nv20.tistory.com/13"
     blog-type:
       - type: "tistory"
-    memo: Mac - 깃허브 페이지 만들기
-    text: 🖥️ github page 만드는 방법 📌 github page 참고 사이트 [ https://pages.github.com ] GitHub . . .
+    memo: "[백준] Python - 10813 : 공바꾸기"
+    text: Q. 10813 - 공 바꾸기 문제 - 도현이는 바구니를 총 N개 가지고 있고, 각각의 바구니에는 1번부터 N번까지 번호가 . . .
 
   - image: "assets/images/blog/post-3.jpg"
     url: "https://velog.io/@sj-_nv20/Algorithm-%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84Time-Complexity-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A0%ED%83%9D%EC%9D%98"
@@ -291,7 +291,21 @@ blog-items:
     blog-type:
       - type: "tistory"
     memo: 정보처리기사 실기 요약정리
-    text: 11.응용 SW 기초 기술 활용 * 운영체제 제어 방법 CLI (Command Line Interface) - 사용자가 직접 명령어 입력
+    text: 11.응용 SW 기초 기술 활용 * 운영체제 제어 방법 CLI (Command Line Interface) - 사용자가 직접 명령어 입력 . . .
+  
+  - image: "assets/images/blog/post-4.jpg"
+    url: "https://sj-nv20.tistory.com/11"
+    blog-type:
+      - type: "tistory"
+    memo: "[goorm] Python - 소수찾기"
+    text: "Q. 소수찾기 정수로만 이루어진 수열A에 있는 수들을 조건에 따라 합한 값을 구하기로 한다. 수열 A의 i번째 수를 Ai . . ."
+
+  - image: "assets/images/blog/post-2.jpg"
+    url: "https://velog.io/@sj-_nv20/%EB%B0%B1%EC%A4%80-Python-2941-%ED%81%AC%EB%A1%9C%EC%95%84%ED%8B%B0%EC%95%84-%EC%95%8C%ED%8C%8C%EB%B2%B3"
+    blog-type:
+      - type: "velog"
+    memo: "[백준] 2941 : 크로아티아 알파벳"
+    text: "문제 : 예전에는 운영체제에서 크로아티아 알파벳을 입력할 수가 없었다. 따라서, 다음과 같이 크로아티아 알파벳을 . . ."
 #-------------------------------
 # Testimonials Section
 
