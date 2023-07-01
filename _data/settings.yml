@@ -265,7 +265,7 @@ blog-label:
   - { title: "Velog", type: "velog" }
 
 blog-items:
-  - image: "assets/images/blog/post-2.jpg"
+  - image: "assets/images/blog/baek.JPEG"
     url: "https://sj-nv20.tistory.com/13"
     blog-type:
       - type: "tistory"
@@ -279,14 +279,14 @@ blog-items:
     memo: 시간복잡도(Time Complexity)
     text: 🤷🏻‍♀️ &nbsp;시간복잡도(Time Complexity)란? 알고리즘에서 시간복잡도는 [ 주어진 문제를 해결하기 위한 연산 횟수 ] . . .
 
-  - image: "assets/images/blog/post-4.jpg"
+  - image: "assets/images/blog/github.JPEG"
     url: "https://sj-nv20.tistory.com/10"
     blog-type:
       - type: "tistory"
     memo: 깃허브 페이지 404 에러 해결방법
     text: 🤷🏻‍♀️ 제대로 만들었는데 404가 뜬다?! 분명 제대로 만들었다 생각했는데 404 페이지가 떴을경우 생각해야 할 것은 총 3 . . .
 
-  - image: "assets/images/blog/post-5.jpg"
+  - image: "assets/images/blog/post5.JPEG"
     url: "https://sj-nv20.tistory.com/15"
     blog-type:
       - type: "tistory"
@@ -300,7 +300,7 @@ blog-items:
     memo: "[goorm] Python - 소수찾기"
     text: "Q. 소수찾기 정수로만 이루어진 수열A에 있는 수들을 조건에 따라 합한 값을 구하기로 한다. 수열 A의 i번째 수를 Ai . . ."
 
-  - image: "assets/images/blog/post-2.jpg"
+  - image: "assets/images/blog/baek.JPEG"
     url: "https://velog.io/@sj-_nv20/%EB%B0%B1%EC%A4%80-Python-2941-%ED%81%AC%EB%A1%9C%EC%95%84%ED%8B%B0%EC%95%84-%EC%95%8C%ED%8C%8C%EB%B2%B3"
     blog-type:
       - type: "velog"
