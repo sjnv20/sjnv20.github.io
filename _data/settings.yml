@@ -122,24 +122,24 @@ experience:
 education-title: Education
 education:
   - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
+      name: "[멀티잇]코딩테스트 러닝클래스(Python)",
+      date: "<br/>2023.05.03 ~ 2023.06.02",
+      organization: ,
     }
   - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
+      name: "[멀티캠퍼스]백엔드 개발자 취업캠프(Java)",
+      date: "2022.12.26 ~ 2023.05.09",
+      organization: "<br/>단위기간 우수훈련생 선정",
     }
   - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
+      name: 동서대학교,
+      date: "2019.03 ~ 2023.02",
+      organization: "전공 - 정보보안학과 / 복수전공 - 사이버경찰보안전공 <br/> 학점 : 4.22 - 수석졸업",
     }
   - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
+      name: 경혜여자고등학교 ,
+      date: "2016.03 ~ 2019.02",
+      organization: "<br/>자연계 졸업",
     }
 
 #-------------------------------
@@ -272,7 +272,7 @@ blog-items:
     memo: "[백준] Python - 10813 : 공바꾸기"
     text: Q. 10813 - 공 바꾸기 문제 - 도현이는 바구니를 총 N개 가지고 있고, 각각의 바구니에는 1번부터 N번까지 번호가 . . .
 
-  - image: "assets/images/blog/post-3.jpg"
+  - image: "assets/images/blog/algo.JPEG"
     url: "https://velog.io/@sj-_nv20/Algorithm-%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84Time-Complexity-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A0%ED%83%9D%EC%9D%98"
     blog-type:
       - type: "velog"
@@ -293,7 +293,7 @@ blog-items:
     memo: 정보처리기사 실기 요약정리
     text: 11.응용 SW 기초 기술 활용 * 운영체제 제어 방법 CLI (Command Line Interface) - 사용자가 직접 명령어 입력 . . .
   
-  - image: "assets/images/blog/post-4.jpg"
+  - image: "assets/images/blog/goorm.JPEG"
     url: "https://sj-nv20.tistory.com/11"
     blog-type:
       - type: "tistory"
