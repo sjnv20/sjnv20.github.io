@@ -8,6 +8,42 @@ body {
   color: $white;
 }
 
+.section-skill{
+  display:table;
+  margin: 0 auto 3rem;
+}
+
+.skill_title {
+  font-size: 1.25rem;
+  color: #523fcd;
+  margin-bottom: 1.5rem;
+  font-weight: 900;
+  border-bottom:1px solid #bfbfc2;
+  padding-bottom: 0.5rem;
+}
+
+.skill_div{
+  width: 17rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  margin: 0 auto 2rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,.2);
+  transform: translate(0px, -5px);
+}
+
+.skill_div:hover {
+  transition: transform 0.2s linear;
+  transform: translate(0px, 0px);
+}
+
+.skill_list{
+  display: flex; 
+  flex-flow:column wrap;
+  align-content: space-around; 
+  flex-wrap:wrap;
+  height: calc(100% - (7rem + 1px));
+}
 /* preloader */
 
 .preloader {
@@ -281,3 +317,4 @@ textarea.form-control{
   }
 }
 /* /card */
+

@@ -1,23 +1,48 @@
 {% if site.data.settings.skills %}
 <!-- skills -->
 <section class="section" style="background-color: rgb(173, 173, 255);">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title" style="font-weight:900;">{{ site.data.settings.skills-title }}</h2>
-      </div>
-      {% for skill in site.data.settings.skills %}
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="{{ skill.color }}">
-            <div class="wave" data-progress="{{ skill.value }}"></div>
-          </div>
-          <div class="card-footer bg-white">
-            <h4 class="card-title">{{ skill.name }} ({{ skill.value }})</h4>
-          </div>
+  <div class="container" style="height: 65rem;">
+    <div class="col-lg-12 text-center">
+      <h2 class="section-skill" style="font-weight:900;">{{ site.data.settings.skills-title }}</h2>
+    </div>
+    <!-- {% for skill in site.data.settings.skills %}
+    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+      <div class="card shadow text-center">
+        <div class="position-relative rounded-top progress-wrapper" data-color="{{ skill.color }}">
+          <div class="wave" data-progress="{{ skill.value }}"></div>
+        </div>
+        <div class="card-footer bg-white">
+          <h4 class="card-title">{{ skill.name }} ({{ skill.value }})</h4>
         </div>
       </div>
-      {% endfor %}
+    </div>
+    {% endfor %} -->
+    <div class="skill_list" >
+      <div class="skill_div">
+        <div class="skill_title">Frontend</div>
+        <img src="/assets/images/skill/front.jpg" style="width: 100%;">
+      </div>
+      <div class="skill_div">
+        <div class="skill_title">Deployment</div>
+        <img src="/assets/images/skill/docker.jpg" style="width: 100%;">
+      </div>
+      <div class="skill_div">
+        <div class="skill_title">Backend</div>
+        <img src="/assets/images/skill/back.JPEG" style="width: 100%;">
+      </div>
+      <div class="skill_div">
+        <div class="skill_title">Version Control</div>
+        <img src="/assets/images/skill/version.jpg" style="width: 100%;">
+      </div>
+      <div class="skill_div">
+        <div class="skill_title">Tools</div>
+        <img src="/assets/images/skill/frame.jpg" style="width: 100%;">
+      </div>
+      <div class="skill_div">
+        <div class="skill_title">Communication</div>
+        <img src="/assets/images/skill/commu.jpg" style="width: 100%;">
+      </div>
+      
     </div>
   </div>
 </section>
