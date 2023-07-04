@@ -46,11 +46,30 @@ body {
   height: calc(100% - (7rem + 1px));
 }
 
-$height:65rem;
-
 .skill-contain{
-  height: $height
+  max-width: 71.25rem;
+  height: 65rem;
 }
+
+@media (max-width: 992px) {
+  .skill-contain {
+    
+    height: 70rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .skill-contain {
+    height: 101rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .skill-contain {
+    height: 160rem;
+  }
+}
+
 /* preloader */
 
 .preloader {
