@@ -1,18 +1,16 @@
 ---
 layout: about
-title: About Me
+title: 이선주 | About Me
 author: Johnathan Smith
-image: assets/images/about/author.jpg
-signature: assets/images/about/signature.png
+image: assets/images/about/Me.png
+signature:
 ---
-
-안녕Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident.
-
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+<h4><b>Contact</b></h4>
+<b>Email : </b>bebebeb1225@naver.com<br/>
+<b>Phone : </b>010.919.6459
+<br/>
+<h4><b>Channer</b></h4>
+<b>Velog :</b> velog.io/@sj-_nv20<br/>
+<b>Tistory :</b> sj-nv20.tistory.com<br/>
+<b>github :</b> github.com/sjnv20<br/>
+<b>Portpolio :</b> sjnv20.github.io/portfolio
