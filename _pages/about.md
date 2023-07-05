@@ -1,16 +1,11 @@
 ---
 layout: about
-title: 이선주 | About Me
+title: About Me | 이선주
 author: Johnathan Smith
 image: assets/images/about/Me.png
 signature:
 ---
-<h4><b>Contact</b></h4>
-<b>Email : </b>bebebeb1225@naver.com<br/>
-<b>Phone : </b>010.919.6459
-<br/>
-<h4><b>Channer</b></h4>
-<b>Velog :</b> velog.io/@sj-_nv20<br/>
-<b>Tistory :</b> sj-nv20.tistory.com<br/>
-<b>github :</b> github.com/sjnv20<br/>
-<b>Portpolio :</b> sjnv20.github.io/portfolio
+
+<h4>Introduce</h4><br/>
+안녕하세요 :)
+어디서든 당당하게 제 역량을 어필할 수 있도록 성장하기 위해 끊임없이 도전하고 노력하는 웹 개발자 이선주 입니다.

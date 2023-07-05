@@ -1,26 +1,40 @@
 ---
 layout: default
 ---
-<!-- page title -->
-<!-- /page title -->
-
 <!-- about -->
 <section class="section">
-  <div class="container">
+  <div class="container about-contain">
     <div class="row">
       <div class="col-12">
-        <h1 class="font-tertiary" style="font-weight: 600; font-size: 40px; margin-top:50px;">{{ page.title }}</h1>
+        <h1 class="about-me">{{ page.title }}</h1>
       </div>
       <div class="col-md-4 text-center">
         <div class="shadow-down mb-4" style="height: 280px; width:280px; margin-top: 10px">
-          <img src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.author }}" class="img-fluid w-100">
+          <img src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.author }}" class="img-fluid w-100" style="margin-left: 25px;">
         </div>
       </div>
       <div class="col-md-8" style="margin-top: 30px;">
-        {{ content }}
+        <div style="margin-left: 30px;">
+          <h4 class="about-sotitle" ><b>Contact</b></h4>
+            {% for contact in site.data.settings.contact %}
+            <li class="about-icon" ><i class="{{ contact.icon }}" style="float: left; margin-top: 7px;"></i><p style="margin-left: 25px;">{{ contact.content }}</p></li>
+            {% endfor %}
+          </p>
+        </div>
+        <div style="margin-left: 30px;">
+          <h4 class="about-sotitle" style="margin-top: 30px;"><b>Channer</b></h4>
+          <p>
+            {% for social in site.data.settings.social %}
+            <li class="about-icon" ><a class="text-dark" href="{{ social.link }}" style="display: block; width: 250px;">
+              <i class="{{ social.icon }}" style="float: left; margin-top: 7px;"></i><p style="margin-left: 25px;">{{ social.content }}</p></a></li>
+            {% endfor %}
+          </p>
+        </div>
       </div>
-      <div>
+      <div  style="border-top:1px solid #e8e8e8;">
+        <div style="margin-top: 30px;"> 
         {{ content}}
+        </div>
       </div>
     </div>
   </div>

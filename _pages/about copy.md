@@ -2,7 +2,6 @@
 layout: about
 title: 이선주 | About Me
 author: Johnathan Smith
-image: assets/images/about/Me.png
 signature:
 ---
 
