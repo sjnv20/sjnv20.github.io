@@ -11,6 +11,7 @@ phone: 010 . 9196 . 6459
 address: 서울특별시 관악구 은천로
 copyright: Copyright &copy; 2020 Designed by Themefisher & Developed by Getjekyllthemes
 
+
 menu:
   - { name: About, link: "/about" }
   - { name: Blog, link: "/blog" }
@@ -39,13 +40,16 @@ hero:
   hero-content: Backend developer
   hero-fill: 안녕하세요 :)<br>어디서든 당당하게 제 역량을 어필할 수 있도록 <br>성장하기 위해 끊임없이 도전하고 노력하는<br><b>웹 개발자 이선주</b> 입니다.
 
+card-front:
+  - { icon: "ti-themify-favicon-alt", content: "&nbspClick!" }
+
 contact:
   - { icon: "ti-email", content: "<b>Email. </b>bebebeb1225@naver.com" }
-  - { icon: "ti-user", content: "<b>Phone. </b>010.919.6459</p>" }
+  - { icon: "ti-mobile", content: "<b>Phone. </b>010.919.6459</p>" }
 
 social:
   - { icon: "ti-github", link: "https://github.com/sjnv20", content: "<b>github.</b>  github.com/sjnv20" }
-  - { icon: "ti-pencil-alt", link: "https://sj-nv20.tistory.com/", content: "<b>Tistory.</b>  sj-nv20.tistory.com" }
+  - { icon: "ti-tumblr-alt", link: "https://sj-nv20.tistory.com/", content: "<b>Tistory.</b>  sj-nv20.tistory.com" }
 
 #-------------------------------
 # About (Section and Page)
