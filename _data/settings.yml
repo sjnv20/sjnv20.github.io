@@ -55,7 +55,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+blurb: "안녕하세요 :) 앞으로 나아가는 개발자 <b>이선주</b> 입니다.<br/>어디서든 당당하게 제 역량을 어필할 수 있도록 성장하기 위해 웹 개발과 관련된 여러 기술들을 학습하고,<br/>요약&정리하는 즐거움을 기반으로 블로그에 학습내용을 정리하는 습관을 만들어가고 있습니다."
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more

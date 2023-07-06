@@ -78,7 +78,6 @@
   box-sizing: border-box;
   position: relative;
   margin-top: 50px;
-
   width:800px;
   height:350px;
   border-radius: 1rem;
@@ -135,4 +134,25 @@
 .about-icon{
   list-style-type: none;
   margin-bottom: -10px;
+}
+
+.about-blurb{
+  border-radius: 1rem;
+  border:1px solid #FAFAFA;
+  height: 300px;
+  -webkit-box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,.2);
+  transform: translate(0px, -5px);
+}
+
+.about-blurb:hover {
+  animation: vibration .1s infinite;
+}
+
+@keyframes vibration {
+  from {
+    transform: rotate(1deg);
+  }
+  to {
+    transform: rotate(-1deg);
+  }
 }
