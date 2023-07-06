@@ -10,7 +10,13 @@
           {% endfor %}
         </ul>
         <!-- /social icon -->
-        <h1 class="font-tertiary" style="font-size: 60px;">{{ site.data.settings.hero.hero-title }}<p class="font-tertiary" style="color: #4c4c4c;">{{ site.data.settings.hero.hero-content }}</p><p class="herofill">{{ site.data.settings.hero.hero-fill }}</p></h1>
+        <h1 class="font-tertiary" style="font-size: 60px;">{{ site.data.settings.hero.hero-title }}<p class="font-tertiary" style="color: #4c4c4c;">{{ site.data.settings.hero.hero-content }}</p><p class="herofill">{{ site.data.settings.hero.hero-fill}}</p>
+          <div style="width: 100%; text-align:right;margin-top:-40px;">
+            {% for card-front in site.data.settings.card-front %}
+              <a href="{{ site.data.settings.blurb-btn-link }}" class="about-btn">{{ site.data.settings.blurb-btn-name }}</a>
+            {% endfor %}
+          </div>
+        </h1>
         <div style="width: 0px;">
           <img src="/assets/images/SJ.PNG" style="margin-left: 50px; margin-bottom:40px;">
         </div>
@@ -46,9 +52,6 @@
   </div>
   <div class="layer" id="l9">
     <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-cyan-2.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l11">
-    <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-orange.png" alt="bg-shape">
   </div>
 </section>
 <!-- /hero area -->

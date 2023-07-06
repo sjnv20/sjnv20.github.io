@@ -38,6 +38,14 @@
   flex-basis: 250px;
 }
 
+.about-btn{
+  font-size: 20px;
+  color:black;
+  font-family: $primary-font;
+  font-weight: 800;
+  margin: 0px;
+}
+
 .layer {
   position: absolute;
   z-index: 1;
@@ -81,8 +89,8 @@
 }
 
 #l8 {
-  bottom: 290px;
-  right: 45%;
+  bottom: 230px;
+  right: 35%;
 }
 
 #l9 {
@@ -91,15 +99,9 @@
 }
 
 #l10 {
-  bottom: 30px;
+  bottom: 10px;
   left: -1%;
   transform: rotate(110deg);
-}
-
-#l11 {
-  bottom: 70px;
-  right: 400px;
-  transform: rotate(15deg);
 }
 
 .layer-bg {

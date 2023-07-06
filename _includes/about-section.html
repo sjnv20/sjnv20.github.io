@@ -2,9 +2,12 @@
 <section class="section">
   <div class="container">
     <div class="row">
+      <h2 class="section-title" style="font-weight: bolder;">About Me</h2>
       <div class="col-lg-10 mx-auto text-center about-blurb">
-        <p class="font-secondary paragraph-lg text-dark" style="font-size:15px; margin-top:90px;">{{ site.data.settings.blurb }}</p>
-        <a href="{{ site.data.settings.blurb-btn-link }}" class="btn" style="color: #523fcd; font-family:Poppins,sans-serif;">{{ site.data.settings.blurb-btn-name }}</a>
+        <p class="font-secondary paragraph-lg text-dark" style="font-size:15px; margin-top:90px;">{{ site.data.settings.blurb }}
+          {% for card-front in site.data.settings.card-front %}
+            <i class="{{ card-front.icon }}" style="float: left; transform: rotateY(180deg);"></i><a href="{{ site.data.settings.blurb-btn-link }}" class="about-btn">{{ site.data.settings.blurb-btn-name }}</a>
+          {% endfor %}
       </div>
     </div>
   </div>

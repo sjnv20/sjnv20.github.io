@@ -141,18 +141,10 @@
   border:1px solid #FAFAFA;
   height: 300px;
   -webkit-box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,.2);
-  transform: translate(0px, -5px);
+  transition: all 0.2s linear;
 }
 
 .about-blurb:hover {
-  animation: vibration .1s infinite;
+  transform: scale(1.4);
 }
 
-@keyframes vibration {
-  from {
-    transform: rotate(1deg);
-  }
-  to {
-    transform: rotate(-1deg);
-  }
-}
