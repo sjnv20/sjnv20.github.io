@@ -63,3 +63,21 @@
     }
   }
 }
+
+@media (max-width: 990px){
+  .bg-shape-3,
+  .bg-shape-2{
+    display: none;
+  }
+  .page-title{
+    .bg-shape-5 {
+      position: absolute;
+      bottom: 110px;
+    }
+    .bg-shape-4{
+      left:25%;
+      top: 370px;
+      transform: rotate(-110deg);
+    }
+  }
+}
