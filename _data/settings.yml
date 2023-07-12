@@ -277,7 +277,7 @@ blog-items:
     url: "https://sj-nv20.tistory.com/13"
     blog-type:
       - type: "tistory"
-    memo: "[백준] Python - 10813 : 공바꾸기"
+    memo: "[백준]Python - 10813:공바꾸기"
     text: Q. 10813 - 공 바꾸기 문제 - 도현이는 바구니를 총 N개 가지고 있고, 각각의 바구니에는 1번부터 N번까지 번호가 . . .
 
   - image: "assets/images/blog/algo.JPEG"
@@ -291,7 +291,7 @@ blog-items:
     url: "https://sj-nv20.tistory.com/10"
     blog-type:
       - type: "tistory"
-    memo: 깃허브 페이지 404 에러 해결방법
+    memo: 깃허브 페이지 404 에러 해결법
     text: 🤷🏻‍♀️ 제대로 만들었는데 404가 뜬다?! 분명 제대로 만들었다 생각했는데 404 페이지가 떴을경우 생각해야 할 것은 총 3 . . .
 
   - image: "assets/images/blog/post5.JPEG"
