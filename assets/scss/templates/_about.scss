@@ -97,6 +97,21 @@
   border:1px solid #FAFAFA; 
 }
 
+@media (max-width: 770px){
+  .card-front{
+    flex-direction:column;
+  }
+  .card{
+    height:700px;
+    width: 400px;
+    margin-left: 50px;
+  }
+  .about-section{
+    padding-top: 150px; 
+    padding-bottom: 400px;
+  }
+}
+
 .card-front,
 .card-back{
   height:100%;
