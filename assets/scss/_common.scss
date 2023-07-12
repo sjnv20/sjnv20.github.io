@@ -52,6 +52,12 @@ body {
   height: 65rem;
 }
 
+.edu-title{
+  font-family: $primary-font;
+  font-weight: bolder; 
+  margin-bottom:50px;
+}
+
 @media (max-width: 992px) {
   .skill-contain {
     
