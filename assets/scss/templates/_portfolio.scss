@@ -81,3 +81,52 @@
     }
   }
 }
+
+.portpolio_atc{
+  padding-top: 120px;
+  padding-bottom: 80px;
+  background-color:rgb(173, 173, 255);
+}
+
+.portpolio_contain{
+  width: 100%;
+  max-width: 71.25rem;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+}
+
+.atc_title{
+  color: #523fcd;
+  font-family: $primary-font;
+  font-size: 50px;
+  font-weight: 900;
+  text-align:center;
+  margin: 0 auto 3rem;
+  display:table;
+}
+
+.project{
+  padding:3rem;
+  margin: 0 auto 2rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,.2);
+}
+
+.prj-title{
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+  color: #222;
+  text-align: center;
+  font-family: $primary-font;
+}
+
+.prj-date{
+  color: #6c757d;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  opacity: .8;
+}
