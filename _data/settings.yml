@@ -130,24 +130,29 @@ experience:
 education-title: Education
 education:
   - {
-      name: "[멀티잇]코딩테스트 러닝클래스(Python)",
-      date: "<br/>2023.05.03 ~ 2023.06.02",
+      name: "▎[멀티잇]코딩테스트 러닝클래스",
+      date: "2023.05.03 ~ 2023.06.02",
       organization: ,
     }
   - {
-      name: "[멀티캠퍼스]백엔드 개발자 취업캠프(Java)",
+      name: "▎[멀티캠퍼스]백엔드 개발자 취업캠프",
       date: "2022.12.26 ~ 2023.05.09",
-      organization: "<br/>단위기간 우수훈련생 선정",
+      organization: "단위기간 우수훈련생 선정",
     }
   - {
-      name: 동서대학교,
+      name: ▎정보처리기사(필기),
+      date: "2022.04.24",
+      organization: "필기합격",
+    }
+  - {
+      name: ▎동서대학교,
       date: "2019.03 ~ 2023.02",
       organization: "전공 - 정보보안학과 / 복수전공 - 사이버경찰보안전공 <br/> 학점 : 4.22 - 수석졸업",
     }
   - {
-      name: 경혜여자고등학교 ,
+      name: ▎경혜여자고등학교 ,
       date: "2016.03 ~ 2019.02",
-      organization: "<br/>자연계 졸업",
+      organization: "자연계 졸업",
     }
 
 #-------------------------------
