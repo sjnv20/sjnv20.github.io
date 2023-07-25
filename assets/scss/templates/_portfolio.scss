@@ -111,6 +111,7 @@
   border-radius: 1rem;
   background-color: #fff;
   box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,.2);
+  text-align: center;
 }
 
 .prj-title{
@@ -132,6 +133,50 @@
 }
 
 .prj-div{
-  display:flex;
+  display: flex;
   flex-flow : row wrap;
+}
+
+.prj-summary{
+  width: 45%;
+  margin-left: 20px;
+}
+
+.prj-img{
+  width:50%; 
+  text-align:center;
+}
+
+#skill-div{
+  display:flex;
+  flex-wrap: wrap;
+  padding-bottom:5px;
+}
+
+.skill{
+  display: flex;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #f1ecec;
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.5rem;
+  height: 40px;
+}
+
+#skill_img{
+  height:100%;
+}
+
+#skill_p{
+  font-weight: border;
+  color: #000;
+  font-size: 15px;
+  width: 60%;
+  font-family: $third-font;
+}
+
+#prj-summary-field{
+  border-top: 2px solid #f1ecec;
+  padding-top: 10px;
+  height: 50%;
 }
