@@ -161,6 +161,7 @@
   border-radius: 0.25rem;
   padding: 0.5rem 0.5rem;
   height: 40px;
+  cursor: pointer;
 }
 
 #skill_img{
@@ -176,7 +177,7 @@
 }
 
 #prj-summary-field{
-  border-top: 2px solid #f1ecec;
+  border-bottom: 2px solid #f1ecec;
   padding-top: 10px;
   height: 50%;
 }
