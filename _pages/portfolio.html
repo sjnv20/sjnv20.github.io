@@ -41,27 +41,51 @@ title: Portfolio
   <div class="portpolio_contain">
     <div class="atc_title">PROJECTS</div>
     <div class="portpolio_project_zip">
-      <!-- <div class="project">
-        <div class="prj-title">github.io</div>
-        <div class="prj-date">23.06 - ing <span>(개인)</span></div>
-        <div class="prj-div" style="display: flex;">
-          <div class="prj-img">
-            <img src="/assets/images/portfolio/portfolio_img.png" style="width:70%; height:80%; border: 1px solid;">
-          </div>
-          <nav>
-            <div></div>
-            <div></div>
-          </nav>
-          <div class="prj-summary">
-            <div style="border-bottom: 2px solid #bfbfc2; height:50%;">
-              현재 보고있는 포트폴리오 웹사이트 입니다.<br>html과 scss를 이용하여 프론트를 원하는 디자인으로 개발하였습니다.
-            </div>
-            <div>
 
+      <!-- inkwang -->
+      <div class="project">
+        <div class="prj-title">인광금속 홈페이지</div>
+        <div class="prj-date">23.08 - 진행중 <span>(1인 개인)</span></div>
+        <div class="prj-div">
+          <div class="prj-img">
+            <img src="/assets/images/portfolio/inkwang_img.jpeg" style="width:80%; height:300px; ">
+          </div>
+          <div class="prj-summary">
+            <div id="prj-summary-field" style="text-align: left;">
+              <p style="font-size:20px; font-family:'Poppins', sans-serif; font-weight: 900;">▎인광금속(회사) 홈페이지</p>
+              <p>부산광역시에 위치한 인광금속(회사)의 웹사이트입니다.<br/>처음으로 React를 이용하여 만든 개인 프로젝트로 현재 진행중에 있습니다. 완성될 경우 실제 회사에서 사용할 수 있도록 상용화할 예정인 웹사이트입니다.</p>
+              <a class="pbtn btn-outline-fill" href="#">
+                see more
+                {% for seemore in site.data.settings.seemore %}
+                  <i class="{{ seemore.icon }}" style="float: left; font-weight:900; margin-right:5px; margin-top:2px;"></i>
+                {% endfor %}
+              </a>
+            </div>
+            <p style="font-size:20px; font-family:'Poppins', sans-serif; font-weight: 900;margin-top:10px;text-align: left;">▎역할 <span style="font-size:20px; font-family:'Poppins', sans-serif; font-weight: 400; font-size:15px;">&nbsp;&nbsp;Frontend</span> </p>
+            <p style="text-align: left; font-size:20px; font-family:'Belanosima', sans-serif; ">▎Tool</p>
+            <div id="skill-div" style="height: 40%; width:90%; padding: 0 0 50px 0px;">
+              <div class="skill" style="width:90px;">
+                <div style="width:40%;"><img id="skill_img" src="/assets/images/portfolio/react.png" style="width:80%;"></div>
+                <div id="skill_p">React</div>
+              </div>
+              <div class="skill" style="width:90px;">
+                <div style="width:40%;"><img id="skill_img" src="/assets/images/portfolio/sass.png"></div>
+                <div id="skill_p">SASS</div>
+              </div>
+              <div class="skill" style="width:60px;">
+                <div style="width:40%;"><img id="skill_img" src="/assets/images/portfolio/js.png"></div>
+                <div id="skill_p">JS</div>
+              </div>
+              <div class="skill" style="width:170px;">
+                <div style="width:40%;"><img id="skill_img" src="/assets/images/portfolio/kakaomap.png"></div>
+                <div id="skill_p">KakaoMap API</div>
+              </div>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
+
+      <!-- Re-surfy -->
       <div class="project">
         <div class="prj-title">Re-surfy</div>
         <div class="prj-date">23.04 - 23.05 <span>(4인 Team)</span></div>
@@ -73,6 +97,12 @@ title: Portfolio
             <div id="prj-summary-field" style="text-align: left;">
               <p style="font-size:20px; font-family:'Poppins', sans-serif; font-weight: 900;">▎레시피 제공 및 없는 재료 기반 쇼핑 중개 사이트</p>
               <p>Re-surfy는 레시피를 제공해주고 가진 재료를 기반으로 레시피를 검색할 수 있으며 사용자가 가지고 있지 않은 재료가 레시피에 들어갈 경우 최저가를 기준으로 재료를 구매할 수 있는 쇼핑사이트를 중개해주는 웹사이트입니다.</p>
+              <a class="pbtn btn-outline-fill" href="#">
+                see more
+                {% for seemore in site.data.settings.seemore %}
+                  <i class="{{ seemore.icon }}" style="float: left; font-weight:900; margin-right:5px; margin-top:2px;"></i>
+                {% endfor %}
+              </a>
             </div>
             <p style="font-size:20px; font-family:'Poppins', sans-serif; font-weight: 900;margin-top:10px;text-align: left;">▎역할 <span style="font-size:20px; font-family:'Poppins', sans-serif; font-weight: 400; font-size:15px;">&nbsp;&nbsp;로그인 및 회원가입 구현 & 회원관리</span> </p>
             <p style="text-align: left; font-size:20px; font-family:'Belanosima', sans-serif; ">▎Tool</p>
@@ -106,10 +136,11 @@ title: Portfolio
                 <div id="skill_p">Docker</div>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
+
+      <!-- YEOJEONG -->
       <div class="project">
         <div class="prj-title">YEOJEONG</div>
         <div class="prj-date">21.11 - 21.12 <span>(4인 Team)</span></div>
@@ -121,6 +152,12 @@ title: Portfolio
             <div id="prj-summary-field" style="text-align: left;">
               <p style="font-size:20px; font-family:'Poppins', sans-serif; font-weight: 900;">▎여행 커뮤니티 모바일 애플리케이션</p>
               <p>YEOJEONG은 바쁜 생활 속 여행의 목적지를 보다 더 쉽게 정할 수 있도록 '여행'에 대한 주제 한정 커뮤니티 어플로 여행의 목적지 뿐만 아니라 여행지 부근 음식점, 숙소, 사용자들이 추천하는 여행지 등을 중심으로 이루어진 여행정리 어플입니다. </p>
+              <a class="pbtn btn-outline-fill" href="#">
+                see more
+                {% for seemore in site.data.settings.seemore %}
+                  <i class="{{ seemore.icon }}" style="float: left; font-weight:900; margin-right:5px; margin-top:2px;"></i>
+                {% endfor %}
+              </a>
             </div>
             <p style="font-size:20px; font-family:'Poppins', sans-serif; font-weight: 900;margin-top:10px;text-align: left;">▎역할 <span style="font-size:20px; font-family:'Poppins', sans-serif; font-weight: 400; font-size:15px;">&nbsp;&nbsp;마이페이지 & 게시글 페이지 구현</span> </p>
             <p style="text-align: left; font-size:20px; font-family:'Belanosima', sans-serif; ">▎Tool</p>
@@ -149,6 +186,8 @@ title: Portfolio
           </div>
         </div>
       </div>
+
+      <!-- HALU -->
       <div class="project">
         <div class="prj-title">HALU</div>
         <div class="prj-date">21.05 - 23.06 <span>(4인 Team)</span></div>
@@ -160,6 +199,12 @@ title: Portfolio
             <div id="prj-summary-field" style="text-align: left;">
               <p style="font-size:20px; font-family:'Poppins', sans-serif; font-weight: 900;">▎GPS를 이용한 나만의 일상 Log</p>
               <p>HALU는 코로나로 인해 일상이 지루하게 느껴지는 요즘 기록을 통한 발자취를 돌아보며 지루한 일상을 의미있는 시간으로 바꿀 수 있도록 일상을 기록할 수 있는 일기장 어플입니다.</p>
+              <a class="pbtn btn-outline-fill" href="#">
+                see more
+                {% for seemore in site.data.settings.seemore %}
+                  <i class="{{ seemore.icon }}" style="float: left; font-weight:900; margin-right:5px; margin-top:2px;"></i>
+                {% endfor %}
+              </a>
             </div>
             <p style="font-size:20px; font-family:'Poppins', sans-serif; font-weight: 900;margin-top:10px;text-align: left;">▎역할 <span style="font-size:20px; font-family:'Poppins', sans-serif; font-weight: 400; font-size:15px;">&nbsp;&nbsp;로그인 및 회원가입 구현 & 일기장 기능 및 구글맵 기능 구현</span> </p>
             <p style="text-align: left; font-size:20px; font-family:'Belanosima', sans-serif; ">▎Tool</p>

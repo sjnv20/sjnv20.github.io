@@ -61,3 +61,47 @@
     color: $primary-color;
   }
 }
+
+$text-color: #fff;
+$accent-color: #5c5584;
+$hover-color: #452eb7;
+$offset: .125em;
+$border-width: .125em;
+$transition: .2s ease-out;
+
+.pbtn{
+  margin-left: 75%;
+  height: 30px;
+  width: 110px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding: 5px 0 5px 8px;
+  border-radius: 2px;
+&:active {
+    transform: translate($offset, $offset);
+    &:after {
+        transform: translate(-$offset, -$offset);
+    }
+}
+}
+
+.btn-outline-fill {
+  color: $accent-color;
+  font-weight: bolder;
+  box-shadow: inset 0 0 0 $border-width $accent-color;
+  background-color: transparent;
+  transition: color $transition, box-shadow $transition, background-color $transition;
+  border-radius: 2px;
+  &:after {
+      border-color: $accent-color;
+  }
+  &:hover {
+      color: $text-color;
+      background-color: $hover-color;
+      box-shadow: inset 0 0 0 $border-width transparent;
+      &:after {
+          border-color: $hover-color;
+      }
+  }
+}
