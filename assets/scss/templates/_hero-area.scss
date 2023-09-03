@@ -1,5 +1,5 @@
 .hero-area {
-  height: 900px;
+  height: 750px;
   padding: 150px 0 0px;
   position: relative;
   @include tablet {
@@ -107,19 +107,20 @@
 }
 
 #l8 {
-  bottom: 230px;
+  bottom: 80px;
   right: 35%;
 }
 
 #l9 {
-  bottom: 230px;
+  bottom: 180px;
   right: -10px;
 }
 
 #l10 {
-  bottom: 10px;
-  left: -1%;
-  transform: rotate(110deg);
+  bottom: -60px;
+  left: -10%;
+  transform: rotate(130deg);
+  z-index: -1;
 }
 
 .layer-bg {
