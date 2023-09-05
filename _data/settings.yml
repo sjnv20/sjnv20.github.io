@@ -51,6 +51,9 @@ social:
   - { icon: "ti-github", link: "https://github.com/sjnv20", content: "<b>github.</b>  github.com/sjnv20" }
   - { icon: "ti-tumblr-alt", link: "https://sj-nv20.tistory.com/", content: "<b>Tistory.</b>  sj-nv20.tistory.com" }
 
+social_git:
+  - { icon: "ti-github", link: "https://github.com/sjnv20", content: "<b>github.</b>  github.com/sjnv20" }
+
 seemore:
   - { icon: "ti-link"}
 #-------------------------------
