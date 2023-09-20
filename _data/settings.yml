@@ -6,7 +6,7 @@ title: sjnv20
 logo:
 author: themefisher
 description: this is meta description
-email: bebebeb1225@naver.com
+email: Lsjnv20@gmail.com
 phone: 010 . 9196 . 6459
 address: 서울특별시 관악구 은천로
 copyright: Copyright &copy; 2020 Designed by Themefisher & Developed by Getjekyllthemes
@@ -44,12 +44,12 @@ card-front:
   - { icon: "ti-themify-favicon-alt", content: "&nbspClick!" }
 
 contact:
-  - { icon: "ti-email", content: "<b>Email. </b>bebebeb1225@naver.com" }
-  - { icon: "ti-mobile", content: "<b>Phone. </b>010.919.6459</p>" }
+  - { icon: "ti-email", content: "<b>Email. </b>&nbspLsjnv20@gmail.com" }
+  - { icon: "ti-mobile", content: "<b>Phone. </b>&nbsp010.919.6459</p>" }
 
 social:
-  - { icon: "ti-github", link: "https://github.com/sjnv20", content: "<b>github.</b>  github.com/sjnv20" }
-  - { icon: "ti-tumblr-alt", link: "https://sj-nv20.tistory.com/", content: "<b>Tistory.</b>  sj-nv20.tistory.com" }
+  - { icon: "ti-github", link: "https://github.com/sjnv20", content: "<b>github.</b>&nbsp github.com/sjnv20" }
+  - { icon: "ti-tumblr-alt", link: "https://sj-nv20.tistory.com/", content: "<b>Tistory.</b>&nbsp sj-nv20.tistory.com" }
 
 social_git:
   - { icon: "ti-github", link: "https://github.com/sjnv20", content: "<b>github.</b>  github.com/sjnv20" }
@@ -137,12 +137,12 @@ education:
   - {
       name: "▎[멀티잇]코딩테스트 러닝클래스",
       date: "2023.05.03 ~ 2023.06.02",
-      organization: "Language: Python",
+      organization: "Language: Python <br/><br/> - python 기반의 알고리즘 역량 강화 <br/> - 그리디 알고리즘, 완전 탐색, 그래프 탐색 등의 <br/>&nbsp&nbsp 학습을 통한 문제 해결 능력 강화 ",
     }
   - {
       name: "▎[멀티캠퍼스]백엔드 개발자 취업캠프",
       date: "2022.12.26 ~ 2023.05.09",
-      organization: "Language: Java <br/> 단위기간 우수훈련생 선정",
+      organization: "Language: Java / 단위기간 우수훈련생 선정 <br/><br/> - Java 기반 웹 개발 학습 <br/> - MongoDB, Spring, Apache Tomcat을 <br/> &nbsp&nbsp 학습하여 Backend 기술 역량 강화",
     }
   - {
       name: ▎정보처리기사(필기),
@@ -381,4 +381,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: sj-nv20@naver.com
+contact-email: Lsjnv20@gmail.com

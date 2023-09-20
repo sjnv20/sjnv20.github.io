@@ -7,11 +7,11 @@
         <h2 class="edu-title">{{ site.data.settings.education-title }}</h2>
       </div>
       <div class="edu_div">
-        <div style="width:50%; border-right:1px solid #bfbfc2; flex-basis: 400px;">
+        <div id="edu_div1">
           {% for education in site.data.settings.education %}
-          <div class="col-lg-6 col-md-6 mb-80" style="margin-right:30px;">
+          <div style="margin-right:30px;">
             <div style="width:400px;">
-              <div style="text-align:right; height:140px; margin-top:20px;">
+              <div id="edu_p">
                 <p class="text-dark mb-1">{{ education.date }}</p>
                 <h4>{{ education.name }}</h4>
               </div>
@@ -19,11 +19,11 @@
           </div>
           {% endfor %}
         </div>
-        <div style="width:50%;">
+        <div id="edu_div2">
           {% for education in site.data.settings.education %}
-          <div class="col-lg-6 col-md-6 mb-80" style="margin-left: 30px;">
+          <div style="margin-left: 30px;">
             <div style="width:400px;">
-              <div style="border-bottom:1px solid #bfbfc2; height:140px; margin-top:20px;">
+              <div style="border-bottom:1px solid #bfbfc2; height:180px; margin-top:50px;">
                 <p class="mb-0 edu-org">{{ education.organization }}</p>
               </div>
             </div>

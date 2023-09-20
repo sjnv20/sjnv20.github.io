@@ -58,10 +58,42 @@ body {
   margin-bottom:50px;
 }
 
+#edu_div1 {
+  width:50%;
+  border-right:1px solid #bfbfc2;
+  flex-basis: 400px;
+
+  #edu_p {
+    text-align:right; 
+    height:210px; 
+    margin-top:20px;
+  }
+}
+
+#edu_div2{
+  width: 50%;
+}
+
 @media (max-width: 992px) {
   .skill-contain {
     
     height: 70rem;
+  }
+
+  .edu_div{
+    padding-left: 0;
+  }
+  #edu_div1 {
+    border-right: 0px;
+    height: 50px;
+  }
+
+  #edu_p{
+    height: 100px;
+  }
+
+  #edu_div2{
+    visibility: hidden;
   }
 }
 
