@@ -1,4 +1,4 @@
-# Kross Jekyll
+<!-- # Kross Jekyll
 
 Kross Jekyll Creative Portfolio Template ported from [Kross HTML Template](https://themefisher.com/products/kross/)
 
@@ -49,10 +49,10 @@ If your problem or idea is not addressed yet, [open a new issue](https://github.
 If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
 
 <!-- licence -->
-## License
+<!-- ## License
 
 Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
 
 **Code License:** Released under the [MIT](https://github.com/themefisher/kross-jekyll/blob/main/LICENSE) license.
 
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images. -->

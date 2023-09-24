@@ -3,8 +3,6 @@ layout: post
 title:  ▎상용화를 목표로하는 회사 홈페이지
 date:   2017-05-26 15:05:55 +0300
 image:  /assets/images/portfolio/inkwang.png
-author: uixgeek
-tags:   UX design
 ---
 <br/>
 
@@ -71,14 +69,16 @@ tags:   UX design
     <img src="/assets/images/portfolio/inkwang.png"  width="48%"/>
 
     * ##### ▶︎ Swiper로 Slide구현
-        * <img src="/assets/images/portfolio/slidecode2.png"  width="48%"/>
-        <img src="/assets/images/portfolio/slidecode.png"  width="48%"/>
+        * <img src="/assets/images/portfolio/swipercode.png"  width="70%"/>
 
 
 
 
 * ##### - 인사말 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 오시는 길
-    * <img src="/assets/images/portfolio/inkwang_hello.jpg"  width="48%" height="260px;"/><img src="/assets/images/portfolio/inkwang_map.jpg"  width="48%" style="margin-left:40px;"/>
+    * <img src="/assets/images/portfolio/inkwang_hello.png"  width="48%" /><img src="/assets/images/portfolio/inkwang_map.jpg"  width="48%" style="margin-left:40px;"/>
+
+    * ##### ▶︎ KakaoMap API 활용
+        * <img src="/assets/images/portfolio/kmap.png"  width="60%" height="300px"/>
 
 * ##### - footer
     * <img src="/assets/images/portfolio/inkwang_footer.jpg"  width="100%"/>
