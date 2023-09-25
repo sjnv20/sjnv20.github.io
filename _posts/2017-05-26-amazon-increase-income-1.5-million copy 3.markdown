@@ -63,24 +63,24 @@ tags:   UX design
 
 <br/>
 
-##### <b>구현 화면</b>
+##### <b>구현 화면 & 코드</b>
 ***
 * ##### - 회원가입 & 로그인 화면
-    * <img src="/assets/images/portfolio/r_login.png"  width="48%"/>
-    <img src="/assets/images/portfolio/r_join.png"  width="48%"/>
+    * <img src="/assets/images/portfolio/resurfy/r_login.png"  width="48%"/>
+    <img src="/assets/images/portfolio/resurfy/r_join.png"  width="48%"/>
 
-    * ##### ▶︎ Swiper로 Slide구현
-        * <img src="/assets/images/portfolio/r_login2.png"  width="48%" height="300px"/>
-        <img src="/assets/images/portfolio/r_join2.png"  width="48%" height="300px"/>
+    * ##### ▶︎ 구현 내용 - 회원가입
+        * <img src="/assets/images/portfolio/resurfy/r_join2.png"  width="80%" height="300px"/>
+    * ##### ▶︎ 코드 ( UserController.java / login.jsp ) <br/><br/>
+        * <img src="/assets/images/portfolio/resurfy/join.png"  width="35%" height="200px"> 
+        * <img src="/assets/images/portfolio/resurfy/join_jsp.png"  width="20%" height="150px"/> <img src="/assets/images/portfolio/resurfy/join2_jsp.png"  width="40%" height="140px"/>
 
+        * <img src="/assets/images/portfolio/resurfy/check.png"  width="45%" height="300px"/> <img src="/assets/images/portfolio/resurfy/check_jsp.png"  width="45%" height="300px" style="margin-left:50px;"/> 
+        * <img src="/assets/images/portfolio/resurfy/msg.png"  width="45%" height="150px"/> <img src="/assets/images/portfolio/resurfy/msg_jsp.png"  width="45%" height="280px" style="margin-left:50px; margin-top:50px;"/> 
+    <br/><br/>
 
+    * ##### ▶︎ 구현 내용 - 로그인
+        * <img src="/assets/images/portfolio/resurfy/r_login2.png"  width="80%" height="300px"/>
 
-
-* ##### - 인사말 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 오시는 길
-    * <img src="/assets/images/portfolio/inkwang_hello.png"  width="48%" /><img src="/assets/images/portfolio/inkwang_map.jpg"  width="48%" style="margin-left:40px;"/>
-
-    * ##### ▶︎ KakaoMap API 활용
-        * <img src="/assets/images/portfolio/kmap.png"  width="60%" height="300px"/>
-
-* ##### - footer
-    * <img src="/assets/images/portfolio/inkwang_footer.jpg"  width="100%"/>
+     * ##### ▶︎ 코드 ( UserController.java / login.jsp )<br/><br/>
+        * <img src="/assets/images/portfolio/resurfy/login.png"  width="50%" height="300px"/> <img src="/assets/images/portfolio/resurfy/login_jsp.png"  width="30%" height="250px" style="margin-left:50px;"/> 
