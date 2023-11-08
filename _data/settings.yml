@@ -37,14 +37,14 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 hero:
   hero-title: Hi, I am Seonju
-  hero-content: Backend developer
+  hero-content: Frontend developer
   hero-fill: 안녕하세요 :)<br>어디서든 당당하게 제 역량을 어필할 수 있도록 <br>성장하기 위해 끊임없이 도전하고 노력하는<br><b>웹 개발자 이선주</b> 입니다.
 
 card-front:
   - { icon: "ti-themify-favicon-alt", content: "&nbspClick!" }
 
 contact:
-  - { icon: "ti-email", content: "<b>Email. </b>&nbspLsjnv20@gmail.com" }
+  - { icon: "ti-email", content: "<b>Email. </b>&nbsp&nbsp Lsjnv20@gmail.com" }
   - { icon: "ti-mobile", content: "<b>Phone. </b>&nbsp010.919.6459</p>" }
 
 social:
@@ -134,6 +134,11 @@ experience:
 
 education-title: Education
 education:
+  - {
+      name: "▎SQLD 합격",
+      date: "2023.10.06",
+      organization: "데이터모델의 이해 및 분석<br/> SQL 이해 및 활용 지식 습득",
+    }
   - {
       name: "▎[멀티잇]코딩테스트 러닝클래스",
       date: "2023.05.03 ~ 2023.06.02",
