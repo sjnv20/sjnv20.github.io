@@ -69,7 +69,7 @@ tags:   UX design
     * <img src="/assets/images/portfolio/resurfy/r_login.png"  width="48%"/>
     <img src="/assets/images/portfolio/resurfy/r_join.png"  width="48%"/>
 
-    * ##### ▶︎ 구현 내용 - 회원가입
+    * ##### ▶︎ 회원가입 - 구현 내용
         * <img src="/assets/images/portfolio/resurfy/r_join2.png"  width="80%" height="300px"/>
     * ##### ▶︎ 코드 ( UserController.java / login.jsp ) <br/><br/>
         * <img src="/assets/images/portfolio/resurfy/join.png"  width="35%" height="200px"> 
@@ -79,7 +79,7 @@ tags:   UX design
         * <img src="/assets/images/portfolio/resurfy/msg.png"  width="45%" height="150px"/> <img src="/assets/images/portfolio/resurfy/msg_jsp.png"  width="45%" height="280px" style="margin-left:50px; margin-top:50px;"/> 
     <br/><br/>
 
-    * ##### ▶︎ 구현 내용 - 로그인
+    * ##### ▶︎ 로그인 - 구현 내용
         * <img src="/assets/images/portfolio/resurfy/r_login2.png"  width="80%" height="300px"/>
 
      * ##### ▶︎ 코드 ( UserController.java / login.jsp )<br/><br/>
